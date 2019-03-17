@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class TestPredictableDie
 {
-		private PredictableDie pd;
+		private PredictableDie pd; 
 		
 
 	@Before

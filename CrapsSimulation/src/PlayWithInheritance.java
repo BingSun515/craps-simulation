@@ -6,7 +6,7 @@
 
 public class PlayWithInheritance
 {
-	public static int RUN_EXAMPLE = 1; // change this to try different behaviors
+	public static int RUN_EXAMPLE = 5 ; // change this to try different behaviors
 										// below
 
 	public static void main(String[] args)
@@ -106,5 +106,15 @@ public class PlayWithInheritance
 	{
 		StdOut.printf("%s '%s' \n", msg, toDescribe.toString());
 	}
+	
+
+	public static String testStatic()
+	{
+		// TODO Auto-generated method stub
+		Die die = new CrookedDie1();
+		return die.testStatic();
+
+	}
+	
 
 }
